@@ -10,6 +10,9 @@ body{
     background-size: cover;
     
 }
+head{
+    background-color: aliceblue;
+}
 nav{
     max-width: 900px;
     margin: auto;
