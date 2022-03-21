@@ -5,9 +5,10 @@
     box-sizing: border-box;
     font-family: 'Open sans';
 }
-<body>
-    {background-image: url(img/fondo.jpg);
-    background-size: cover;}
+body{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+}
 nav{
     max-width: 900px;
     margin: auto;
