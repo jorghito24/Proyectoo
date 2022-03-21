@@ -6,10 +6,6 @@
     font-family: 'Open sans';
 }
 
-
-body{
-    background-color: rgb(126, 114, 114);
-}
 nav{
     max-width: 900px;
     margin: auto;
@@ -24,12 +20,19 @@ nav{
 }
 .menu-horizontal > li > a{
     display: block;
-    padding: 10px 10px;
+    padding: 15px 20px;
     color: white;
     text-decoration: none;
 }
 .menu-horizontal > li:hover{
     background-color: red;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
 }
 .menu-horizontal li:hover .menu-vertical{
     display: block;
