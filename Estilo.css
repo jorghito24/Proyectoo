@@ -8,8 +8,7 @@
 
 
 body{
-    background-image: url(Logo.png);
-    background-size: cover;
+    background-color: rgb(126, 114, 114);
 }
 nav{
     max-width: 900px;
