@@ -6,12 +6,11 @@
     font-family: 'Open sans';
 }
 body{
-    background-image: url(img/fondo.jpg);
+    background-image: url(img/patitas.jpg);
     background-size: cover;
     
 }
-nav{
-    max-width: 900px;
+nav{    max-width: 900px;
     margin: auto;
     background-color: rgb(102, 95, 95);
     font-size: 20px;
@@ -48,4 +47,8 @@ nav{
     display: block;
     color: white;
     padding: 15px 15px 15px 20px;
+}
+
+.titulo{
+    background-color: aqua;
 }
