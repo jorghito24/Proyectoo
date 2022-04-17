@@ -32,6 +32,8 @@ input#search-input {
     background-color:var(--primario);
 } 
 
+/**menu**/
+
 .menu-horizontal{
     list-style: none;
     display: flex;
@@ -69,6 +71,8 @@ input#search-input {
     background-color: aqua;
 }
 
+/**carrusel**/
+
 .dog {
     background-image: url(../Proyectoo/img/Gatos.jpg);
     background-repeat: no-repeat;
@@ -93,6 +97,8 @@ h2 {
 legend {
     text-align: center;
 }
+
+/**formulario**/
 
 .formulario {
     background-color: var(--gris);
