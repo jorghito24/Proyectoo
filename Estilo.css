@@ -13,10 +13,6 @@
     --secundario: #0003c9;
     --gris: #757575;
 }
-img{
-    margin-left: 20px;
-    padding: 30px;
-}
 body{
     background-image: url(img/patitas.jpg);
     background-size: cover;
