@@ -8,21 +8,20 @@
 
 :root {
     --blanco: #ffffff;
-    --primario: aqua;
+    --primario: rgb(151, 179, 179);
     --negro: #000;
-    --secundario: #0003c9;
+    --secundario: #9fe3e6;
     --gris: #757575;
 }
 body{
-    background-image: url(img/patitas.jpg);
-    background-size: cover;
+    background-color: var(--secundario);
 }
 
 input#search-input {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    background: #f3f2f2;
+    background: #ffffff;
     border:none;
     border-radius: 10px;
 }
@@ -67,7 +66,7 @@ input#search-input {
 }
 
 .titulo{
-    background-color: aqua;
+    background-color: var(--secundario);
 }
 
 /**carrusel**/
